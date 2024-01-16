@@ -1,0 +1,10 @@
+{
+    "editor.fontSize": 16,
+    "editor.codeLensFontSize": 16,
+    "editor.inlayHints.fontSize": 16,
+    "editor.suggestFontSize": 16,
+    "editor.defaultColorDecorators": false,
+    "workbench.settings.editor": "json",
+    "workbench.settings.useSplitJSON": false,
+    "window.zoomLevel": 0
+}
