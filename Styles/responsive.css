@@ -39,6 +39,16 @@
     .header, .main{
         padding: 50px 50px;
     }
+    .choose-box-area{
+        flex-direction: column;
+
+    }
+    .choose-box{
+        width: calc(100% - 24px) ;
+        padding: 32px;
+        text-align: left;
+        border-radius: 16px;
+    }
 
 }
 @media screen and (max-width:576px) {

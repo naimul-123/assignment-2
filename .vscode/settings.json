@@ -6,5 +6,5 @@
     "editor.defaultColorDecorators": false,
     "workbench.settings.editor": "json",
     "workbench.settings.useSplitJSON": false,
-    "window.zoomLevel": 0
+    "window.zoomLevel": 3
 }
