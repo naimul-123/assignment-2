@@ -26,6 +26,7 @@ font-family: 'Mulish', sans-serif;
     color: #131318;
     font-size: 40px;
     font-weight: 800;
+    margin: 24px auto;
 
 }
 
@@ -114,14 +115,13 @@ justify-content: space-between;
 }
 /* Hero area design */
 .hero{
-height: 100%;
-width: 100%;
-padding: 106px 0;
-margin: 50px auto;
-border-radius: 16px;
-background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png") center/cover;
- /* background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png"); */
- background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    padding: 106px 0;
+    margin: 50px auto;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png") center/cover;
+    background-repeat: no-repeat;
 
 }
 .hero-header{
@@ -195,46 +195,6 @@ background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 
     height: 100%;
 }
 
-/* .sec-1{
-    grid-area: sec-1;
-}
-.sec-1{
-    grid-area: sec-1;
-}
-.sec-1{
-    grid-area: sec-1;
-}
-.sec-1{
-    grid-area: sec-1;
-}
-.sec-1{
-    grid-area: sec-1;
-}
-.sec-2{
-    grid-area: sec-2;
-}
-.sec-3{
-    grid-area: sec-3;
-}
-.sec-4{
-    grid-area: sec-4;
-}
-.sec-5{
-    grid-area: sec-5;
-}
-.sec-6{
-    grid-area: sec-6;
-}
-.sec-7{
-    grid-area: sec-7;
-}
-.sec-8{
-    grid-area: sec-8;
-}
-.sec-9{
-    grid-area: sec-8;
-} */
-
 .row{
     display: flex;
     justify-content: center;
@@ -245,13 +205,13 @@ background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 
     margin: 100px auto;
     max-width: 1440px;
 }
-.choose-text-area{
+.choose-text-area, .discount-heading-area{
     width: 50%;
-    margin: 0 auto;
     text-align: center;
+    margin: 24px auto;
 }
 .choose-box-area{
-    margin: 48px auto;
+    margin: 24px auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -284,4 +244,64 @@ background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 
 .box-icon{
     width: 64px;
     height: 64px;
+}
+
+.discount-offer{
+max-width: 100%;
+display: flex;
+border-radius: 16px;
+justify-content: end;
+background: url("../Images/Group\ 39.png"), lightgray 50% / cover no-repeat;
+margin-bottom: 24px;
+}
+
+.offer-1{
+    justify-content: end;
+    background: url("../Images/Group\ 39.png"), lightgray 50% / cover no-repeat;
+}
+
+.offer-2{
+    justify-content: start;
+    background: url("../Images/Group\ 40.png"), lightgray 50% / cover no-repeat;
+}
+
+
+.offer-box{
+
+    margin: 56px;
+    padding: 50px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    flex-shrink: 0;
+    max-width: 579px ;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    text-align: left;
+}
+.offer-text-area{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.offer-schedule{
+    display: flex;
+    flex-shrink: 0;
+    gap: 16px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.offer-schedule p i{
+    color: #FF5400;
+}
+.offer-price{
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+
 }
