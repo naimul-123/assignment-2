@@ -11,7 +11,7 @@
     
 }
 @media screen and (max-width:992px) {
-    .header, .header-menu ,.tours, .place{
+    .header, .header-menu ,.tours, .place, .news-area{
         flex-direction: column;
         align-items: normal;
     }
@@ -35,6 +35,10 @@
     .offer-box{
         max-width: calc(100% - 48px);
         margin: 24px;
+    }
+    .news{
+        width: 100%;
+        
     }
 }
 @media screen and (max-width:768px) {
