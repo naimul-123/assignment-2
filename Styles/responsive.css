@@ -11,7 +11,7 @@
     
 }
 @media screen and (max-width:992px) {
-    .header, .header-menu ,.tours{
+    .header, .header-menu ,.tours, .place{
         flex-direction: column;
         align-items: normal;
     }
