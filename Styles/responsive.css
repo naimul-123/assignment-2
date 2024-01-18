@@ -31,6 +31,12 @@
         width: 100%;
     
     }
+    .row{
+
+        flex-direction: column;
+        gap: 15px;
+        margin: 15px 0;
+    }
     .nav-area{
         display: none;
     }
@@ -41,7 +47,7 @@
     .form-field{
         width: 100%;
     }
-    .row{flex-direction: column;}
+    /* .row{flex-direction: column;} */
     .offer-box{
         max-width: calc(100% - 48px);
         margin: 24px;
